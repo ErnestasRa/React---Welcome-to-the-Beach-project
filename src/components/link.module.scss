@@ -1,0 +1,16 @@
+@use "colors";
+
+.link {
+    font-size:18px;
+    text-decoration:none;
+    color: colors.$color-primary;
+    border: colors.$color-primary 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+
+    &:hover{
+        background: colors.$color-primary;
+        color: colors.$color-hover-primary;
+    }
+}

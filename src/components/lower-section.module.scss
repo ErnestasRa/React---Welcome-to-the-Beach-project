@@ -1,0 +1,21 @@
+@use "colors";
+
+.lowerSection{
+    display:flex;
+
+    div {
+        padding:20px;
+    }
+
+    &.firstBox {
+        background: colors.$color-primary;
+        color: colors.$color-hover-primary;
+    }
+    &.secondBox {
+        background: colors.$color-third;
+    }
+    &.thirdBox {
+        background:colors.$color-primary;
+        color: colors.$color-hover-primary;
+    }
+  }

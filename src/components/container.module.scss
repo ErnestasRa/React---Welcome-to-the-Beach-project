@@ -1,0 +1,12 @@
+@use "colors";
+
+.container {
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color: colors.$color-primary;
+    line-height:1.6;
+    margin: 0;
+    padding: 0;
+
+  }
